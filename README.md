@@ -93,9 +93,10 @@ risk of interfering with the robot.
 5. Now the robot retracts normal to the welding path and then straight up
 6. ![image](https://user-images.githubusercontent.com/36288975/173730741-29331e12-e805-44da-bc71-798894720348.png)
 ##PROGRAM
+~~~
 Name:M.Meenadhsi
 Register Number:212220040086
-/*import sys
+import sys
 import os
 sys.path.append(os.path.abspath(r"""E:/RoboDK/Posts/""")) # temporarily add path to POSTS folder
 
@@ -121,15 +122,9 @@ r.MoveL(p(1909.38,82.1936,244.394,173.458,-48.1296,-166.856),[-5.09436,-53.5834,
 r.MoveL(p(913.203,11.8774,163.193,173.458,-48.1296,-166.856),[-6.20609,-86.1947,148.418,15.6926,33.1308,-16.7445],[0,0,0])
 r.MoveL(p(1685.13,32.5589,6.33493,173.458,-48.1296,-166.856),[-4.1108,-52.2296,106.602,13.4094,40.4581,-11.6734],[0,0,0])
 r.ProgFinish(r"""Prog1""")
-r.ProgSave(r"""C:/Users/Sudharshna/Documents/RoboDK""",r"""Prog1""",True,r"""E:/RoboDK/Other/VSCodium/VSCodium.exe""")/*
+r.ProgSave(r"""C:/Users/Sudharshna/Documents/RoboDK""",r"""Prog1""",True,r"""E:/RoboDK/Other/VSCodium/VSCodium.exe""")
+~~~
 
-
-
-### Results of simulation 
-![203840790-44917b1e-78a4-4d0a-8af3-8cf34d82aa30](https://user-images.githubusercontent.com/88670187/205498316-3d17a25e-9d98-4934-aac7-e5e6323a569a.png)
-![203840847-72a20c77-92ae-4417-a824-7261c4aa0070](https://user-images.githubusercontent.com/88670187/205498319-88d52743-e051-40a4-af2a-39480fd3ed46.png)
-![203840857-0a2e7eff-6f2a-4934-9b2c-f3f0f1115bd0](https://user-images.githubusercontent.com/88670187/205498322-918b72a6-c529-4fca-85f5-878f559b0089.png)
-
-##RESULT
+## RESULT
 An environment for welding operation using robodk is Designed & simulated.
 
